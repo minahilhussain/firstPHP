@@ -1,0 +1,196 @@
+footer,
+header,
+nav,
+section{
+    display: block;
+}
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+a {
+    color: #3888c2;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+    color: #285f87;
+
+}
+h1 {
+    font-size: 3em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+p{
+    margin: 1em 0;
+}
+ol,
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+    width:80px;
+    height:100px;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+button,
+input {
+    line-height: normal;
+}
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+table th {
+    padding-right: 40px;
+}
+html {overflow-y: scroll; overflow-x: hidden;}
+body {font-family: 'Open Sans', sans-serif; background:#ffffff; color: #676767;}
+
+.wrapper {width: 980px; margin: 0 auto;}
+#content {padding: 20px 0 80px;}
+.header:after {content:"";height:0;display:block;visibility:hidden;clear:both;}
+.header {background: #ef8887; border-bottom: 3px solid #db7a78;}
+.header .branding-title {float: left; margin: 0 0 0 5px; font: 0/0 serif; text-shadow: none; color: transparent; width:225px; height:125px;background:url(../img/branding-title.png) 0 6px no-repeat;padding: 6px 0;}
+.header .branding-title a {display: block; height: 125px; width: 225px;}
+.header .nav {float: right; top: 10; right: 0; margin: 0; position: relative; left: 15px; z-index: 99999999;}
+.header .nav li {display: inline-block; margin: 0; list-style: none;}
+.header .nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 95px;
+    padding: 10px 0 0;
+    margin: 0 0 0 50px;
+    width: 100px;
+    text-align: left;
+    background: url('../img/nav-sprite.png') no-repeat 0px 105px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.con{
+  width:70%;
+}
+.header_justify {margin:0 auto;width:100%;display:flex;justify-content:space-between;}
+.header .nav li.on a {text-decoration:underline;}
+.header .nav li a:hover, .header .nav li a:active {opacity: 0.7;}
+.header .nav li.books a {background-position: 8px -5px;}
+.header .nav li.movies a {background-position: 13px -105px;}
+.header .nav li.music a {background-position: 15px -235px;}
+.header .nav li.suggest a {background-position: 35px -340px;}
+#content {min-height: 400px; background: white;}
+.section.page:after {content:"";display:block;visibility:hidden;height:0;clear:both;}
+.section.page {padding: 34px 0; background: white;}
+.section.page h1 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: normal;
+}
+.section.page .media-details h1 {
+    text-align: left;
+}
+.section.page p {width: 475px; margin-left: auto; margin-right: auto; }
+.section.page .media-details h1 .price {color: #9d9f4e; padding-right: 10px; font-size: 34px;}
+td, th {
+    padding: 5px 5px;
+}
+form {width: 475px; margin: 34px auto;}
+form tr, tr {text-align:left;vertical-align: top; padding:2px;}
+form table {width: 475px; margin-bottom: 16px;}
+form th {
+    width: 150px;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+.footer {
+    background: #f0eeed;
+    border-top: 3px solid #dddddd;
+    padding: 42px 0;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.footer ul {margin: 0; padding: 0; float: left;}
+.footer ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.spacing{
+  height:150px;
+}
+.footer ul li:after {content:" | "}
+.footer ul li:last-child:after {content:"";}
+.footer p {margin: 0; padding-right: 3px;}
+.footer a {text-decoration: none; color: #539def; margin: 0 10px;}
+.footer li:first-child a {margin-left: 4px;}
+.footer a:hover, .footer a:active {text-decoration: underline;}
